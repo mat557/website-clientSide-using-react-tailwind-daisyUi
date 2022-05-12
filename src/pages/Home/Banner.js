@@ -1,5 +1,6 @@
 import React from "react";
 import bannerPic from "../../assets/images/chair.png";
+import BUtton from "../Shared/BUtton";
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi.
           </p>
-          <button className="bg-gradient-to-r from-secondary to-primary btn btn-primary text-white font-bold">Get Started</button>
+          <BUtton>Get Started</BUtton>
         </div>
       </div>
     </div>
